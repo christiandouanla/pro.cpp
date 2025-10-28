@@ -43,7 +43,7 @@ char* TrouverCaractere(const char* chaine, char caractere) {
 }
 
 // 5)calcul du nombre d'occurrences
-size_t CompterOccurrences(const char* chaine, char caractere){
+size_t CompterOccurrences(const char* chaine, char caractere) {
     size_t i = 0;
     while (*chaine != '\0') {
         if (*chaine == caractere) i++;
@@ -88,6 +88,17 @@ void ExtraireSousChaine(char* destination, const char* source, size_t debut, siz
     }
     return 0;
 }
+
+// Prototypes des fonctions
+size_t LongueurChaine(const char* chaine);
+void CopierChaine(char* destination, const char* source);
+void ConcatenerChaines(char* destination, const char* source);
+char* TrouverCaractere(const char* chaine, char caractere);
+size_t CompterOccurrences(const char* chaine, char caractere);
+void CopierMemoire(void* destination, const void* source, size_t taille);
+void InitialiserMemoire(void* zone, unsigned char valeur, size_t taille);
+void ExtraireSousChaine(char* destination, const char* source, size_t debut, size_t longueur);
+int ComparerChaines(const char* chaine1, const char* chaine2);
 
 
 // MAIN POUR TESTER LES FONCTION
