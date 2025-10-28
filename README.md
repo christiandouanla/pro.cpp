@@ -13,5 +13,6 @@ liste des fonctions utilisee:
 
 #compilation avec : (g++ main.cpp -o main) ou (clang++ main.cpp-o main)
 
-auteur : DOUANLA NGUEYO CHRISTIAN FRANCK
+nom : DOUANLA NGUEYO CHRISTIAN FRANCK
+
 matricule: 25P902
